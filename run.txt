@@ -1,0 +1,5 @@
+cd C:\Python\FastAPI\hello_world
+python -m venv venv
+pip install fastapi uvicorn jinja2
+venv\Scripts\activate
+uvicorn main:app --reload
